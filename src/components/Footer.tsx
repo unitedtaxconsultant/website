@@ -10,18 +10,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/src/assets/UNITED TAX CONSULTANT _ LOGO.png" 
+                src="/UNITED TAX CONSULTANT _ LOGO.png" 
                 alt="United Tax Consultant Logo" 
                 className="h-10 w-auto"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                  target.parentElement!.innerHTML = `
-                    <div class="bg-[#de1425] text-white p-2 rounded-lg">
-                      <span class="text-lg font-bold">UTC</span>
-                    </div>
-                  `;
-                }}
               />
               <div>
                 <h3 className="text-xl font-bold">United Tax Consulting</h3>

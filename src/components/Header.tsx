@@ -22,24 +22,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="/src/assets/UNITED TAX CONSULTANT _ LOGO.png" 
+              src="/UNITED TAX CONSULTANT _ LOGO.png" 
               alt="United Tax Consultant Logo" 
               className="h-12 w-auto"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.style.display = 'none';
-                target.parentElement!.innerHTML = `
-                  <div class="flex items-center space-x-2">
-                    <div class="bg-[#de1425] text-white p-2 rounded-lg">
-                      <span class="text-xl font-bold">UTC</span>
-                    </div>
-                    <div class="flex flex-col">
-                      <span class="text-[#092e56] font-bold text-lg leading-tight">United Tax</span>
-                      <span class="text-[#de1425] font-semibold text-sm leading-tight">Consulting</span>
-                    </div>
-                  </div>
-                `;
-              }}
             />
           </Link>
 
