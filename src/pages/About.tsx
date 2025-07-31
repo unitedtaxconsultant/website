@@ -7,7 +7,7 @@ const About = () => {
       name: "Zabi Ul Umair",
       position: "Managing Director & Lead Consultant",
       qualification: "Chartered Accountant (CA)",
-      image: "/Zabi Ul Umair copy.png",
+      image: "https://github.com/unitedtaxconsultant/website/blob/main/src/assets/Zabi%20Ul%20Umair.png",
       description: "Zabi Ul Umair is a highly qualified Chartered Accountant who leads United Tax Consulting with exceptional expertise in taxation, financial management, and business advisory services. With years of experience in the field, he has successfully guided numerous businesses and individuals through complex tax regulations and compliance requirements. His deep understanding of Pakistani tax laws and international accounting standards makes him an invaluable asset to our clients. Zabi's leadership ensures that our firm maintains the highest standards of professional excellence and client satisfaction."
     },
     {
