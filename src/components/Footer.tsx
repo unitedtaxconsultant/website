@@ -19,8 +19,6 @@ const Footer = () => {
                 <p className="text-gray-300">Professional Tax Solutions</p>
               </div>
             </div>
-              </div>
-            </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Your trusted partner for comprehensive tax consulting services. We provide expert guidance 
               for individuals and businesses to navigate complex tax regulations with confidence.
