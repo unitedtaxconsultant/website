@@ -7,14 +7,14 @@ const About = () => {
       name: "Zabi Ul Umair",
       position: "Managing Director & Lead Consultant",
       qualification: "Chartered Accountant (CA)",
-      image: "/Zabi Ul Umair.png",
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Zabi Ul Umair is a highly qualified Chartered Accountant who leads United Tax Consulting with exceptional expertise in taxation, financial management, and business advisory services. With years of experience in the field, he has successfully guided numerous businesses and individuals through complex tax regulations and compliance requirements. His deep understanding of Pakistani tax laws and international accounting standards makes him an invaluable asset to our clients. Zabi's leadership ensures that our firm maintains the highest standards of professional excellence and client satisfaction."
     },
     {
       name: "Chaudhary Junaid Shafi",
       position: "Senior Tax Consultant",
       qualification: "ACCA (Association of Chartered Certified Accountants)",
-      image: "/Chaudhary Junaid Shafi.png",
+      image: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Chaudhary Junaid Shafi brings extensive expertise as an ACCA qualified professional with specialized knowledge in tax planning, compliance, and financial reporting. His comprehensive understanding of both local and international taxation frameworks enables him to provide strategic tax solutions for complex business scenarios. Junaid's meticulous attention to detail and analytical approach ensures accurate tax filings and optimal tax planning strategies for our clients. His expertise spans across corporate taxation, individual tax planning, and regulatory compliance."
     },
     {
@@ -28,7 +28,7 @@ const About = () => {
       name: "Ubaid Bhatti",
       position: "Head of Marketing",
       qualification: "Marketing Professional",
-      image: "/Ubaid Ullah.png",
+      image: "https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Ubaid Bhatti leads our marketing initiatives with strategic vision and creative excellence. As Head of Marketing, he is responsible for building and maintaining our brand presence, developing client relationships, and expanding our market reach. His deep understanding of the tax consulting industry combined with modern marketing strategies helps us connect with clients effectively and communicate the value of our services. Ubaid's innovative approach to client engagement and market development has been instrumental in our firm's growth and reputation building."
     }
   ];
@@ -165,10 +165,6 @@ const About = () => {
                       src={member.image}
                       alt={member.name}
                       className="w-full max-w-md mx-auto rounded-2xl shadow-lg object-cover aspect-square"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = `https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400`;
-                      }}
                     />
                     <div className="absolute -bottom-6 -right-6 bg-[#de1425] text-white p-4 rounded-full">
                       <User className="w-8 h-8" />

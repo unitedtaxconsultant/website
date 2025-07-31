@@ -12,19 +12,6 @@ const Header = () => {
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contact' },
   ];
-
-  const isActive = (path: string) => location.pathname === path;
-
-  return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src="/UNITED TAX CONSULTANT _ LOGO.png" 
-              alt="United Tax Consultant Logo" 
-              className="h-12 w-auto"
             />
           </Link>
 
