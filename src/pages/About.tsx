@@ -14,7 +14,7 @@ const About = () => {
       name: "Chaudhary Junaid Shafi",
       position: "Senior Tax Consultant",
       qualification: "ACCA (Association of Chartered Certified Accountants)",
-      image: "/Chaudhary Junaid Shafi copy.png",
+      image: "https://ibb.co/5g97bcKr",
       description: "Chaudhary Junaid Shafi brings extensive expertise as an ACCA qualified professional with specialized knowledge in tax planning, compliance, and financial reporting. His comprehensive understanding of both local and international taxation frameworks enables him to provide strategic tax solutions for complex business scenarios. Junaid's meticulous attention to detail and analytical approach ensures accurate tax filings and optimal tax planning strategies for our clients. His expertise spans across corporate taxation, individual tax planning, and regulatory compliance."
     },
     {
