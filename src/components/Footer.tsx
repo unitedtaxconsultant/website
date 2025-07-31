@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/UNITED TAX CONSULTANT _ LOGO.png" 
+                src="/UNITED TAX CONSULTANT_LOGO.png" 
                 alt="United Tax Consulting Logo" 
                 className="h-10 w-auto"
               />

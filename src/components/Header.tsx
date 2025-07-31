@@ -22,7 +22,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="/logo.png"
+              src="/UNITED TAX CONSULTANT_LOGO.png"
               alt="Logo"
               className="h-8 w-auto"
             />
